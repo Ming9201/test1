@@ -37,7 +37,7 @@ def load_data(url):
     df=pd.read_pickle(url)
     return df
 df_original = load_data('kbars_2330_2022-01-01-2022-11-18.pkl')
-st.dataframe(df)
+
 # = pd.read_pickle('kbars_2330_2022-01-01-2022-11-18.pkl')
 
 
